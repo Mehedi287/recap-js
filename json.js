@@ -29,3 +29,19 @@ const products = [
 const newProduct = { name: 'harikan', id: 98, pice: 998, brand: 'bangal' }
 const newArry = { ...products, newProduct }
 console.log(newArry);
+const name = 'Hero'; const age = 34;
+
+// const person = { name, age }; console.log(person);
+const person = { name: "Babe" }
+person.name
+console.log(person);
+const adventurer = { name: 'Alice', cat: { name: 'Lucy' } };
+
+const ratName = adventurer?.rat?.name;
+console.log(ratName);
+let person1 = null;
+
+console.log(person1 ? person1 : "person is null");
+const obj = { a: 1 };
+
+console.log(Object.keys(obj).length === 0);
